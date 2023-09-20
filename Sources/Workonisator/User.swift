@@ -15,18 +15,16 @@ public struct User: Identifiable, Decodable{
     public var username: String
     public var firstName: String
     var profileImageURL: String?
-    public var tables: [Tisch]?
     
     public var isCurrentUser: Bool {
         Auth.auth().currentUser?.uid == id
     }
      
-    public init(id: String? = nil, email: String, username: String, firstName: String, profileImageURL: String, tables: [Tisch]? = nil) {
+    public init(id: String? = nil, email: String, username: String, firstName: String, profileImageURL: String) {
         self.id = id
         self.email = email
         self.username = username
         self.firstName = firstName
         self.profileImageURL = profileImageURL
-        self.tables = tables
     }
 }
