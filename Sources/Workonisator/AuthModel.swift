@@ -21,7 +21,7 @@ extension Workonisator{
     ///
     /// Verwendung:
     /// ```swift
-    /// tool.auth.profilFoto { image in
+    /// workonisator.profilFoto { image in
     ///      image
     ///           .scaledToFit()
     /// //Alle Modifier wie z.B. .frame(width: 10) hierhin
@@ -206,7 +206,7 @@ extension Workonisator{
     ///         }
     ///         if let data = imageData{
     ///                 Button("Weiter"){
-    ///                 tool.auth.ladeProfilFotoHoch(data)
+    ///                 workonisator.ladeProfilFotoHoch(data)
     ///                 }
     ///         }
     ///     }
@@ -237,7 +237,7 @@ extension Workonisator{
     ///         }
     ///         if let data = imageData{
     ///                 Button("Weiter"){
-    ///                 tool.auth.ladeProfilFotoHoch(data)
+    ///                 workonisator.ladeProfilFotoHoch(data)
     ///                 }
     ///         }
     ///     }
@@ -296,7 +296,7 @@ extension Workonisator{
     ///         }
     ///         if let data = imageData{
     ///                 Button("Weiter"){
-    ///                 tool.auth.ladeProfilFotoHoch(photosPickerItem)
+    ///                 workonisator.ladeProfilFotoHoch(photosPickerItem)
     ///                 }
     ///         }
     ///     }
@@ -317,7 +317,7 @@ extension Workonisator{
     ///                 }
     ///                 if let data = selectedItem{
     ///                 Button("Weiter"){
-    ///                 tool.auth.ladeProfilFotoHoch(photosPickerItem)
+    ///                 workonisator.ladeProfilFotoHoch(photosPickerItem)
     ///                 }
     ///              }
     ///         }

@@ -110,3 +110,20 @@ public enum FirestoreError: Error, LocalizedError{
     }
     
 }
+
+
+
+
+
+public enum EncodingError: Error, LocalizedError{
+    case dateiNichtGefunden
+    
+    
+    public var localizedDescription: String {
+        switch self {
+        case .dateiNichtGefunden:
+            return NSLocalizedString("Leider wurde die entsprechende Datei nicht gefunden", comment: "Datei nicht gefunden")
+        }
+    }
+    
+}

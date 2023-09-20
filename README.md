@@ -1,3 +1,3 @@
 # Workonisator
 
-A description of this package.
+WICHTIG! Im INIT der App Initialisierung.setup() sagen!!!
