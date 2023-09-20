@@ -1,6 +1,7 @@
-public struct Workonisator {
-    public private(set) var text = "Hello, World!"
+import Combine
 
-    public init() {
-    }
+public class Workonisator: ObservableObject {
+    
+    
+    
 }
